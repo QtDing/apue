@@ -1,0 +1,238 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CONFIG_FILE	print.h	14;"	d
+DATADIR	print.h	17;"	d
+ETIME	print.h	37;"	d
+EXTRA	freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	macos.mk	/^EXTRA=-DDEBUG -DOS_INLINE=static$/;"	m
+EXTRA	solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRALIBS	solaris.mk	/^EXTRALIBS=-lsocket -lnsl -lrt -lpthread$/;"	m
+FILENMSZ	print.h	20;"	d
+FILEPERM	print.h	21;"	d
+HBUFSZ	print.h	33;"	d
+HDRS	freebsd.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	linux.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	macos.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	solaris.mk	/^HDRS = print.h ipp.h$/;"	m
+HOST_NAME_MAX	print.h	27;"	d
+HTTP_INFO	printd.c	19;"	d	file:
+HTTP_SUCCESS	printd.c	20;"	d	file:
+IBUFSZ	print.h	32;"	d
+IOBUFSZ	print.h	34;"	d
+IPP_PORT	print.h	30;"	d
+JOBFILE	print.h	16;"	d
+JOBNM_MAX	print.h	23;"	d
+MAXCFGLINE	util.c	6;"	d	file:
+MAXFMTLEN	util.c	8;"	d	file:
+MAXKWLEN	util.c	7;"	d	file:
+MSGLEN_MAX	print.h	24;"	d
+OP_CANCEL_JOB	ipp.h	65;"	d
+OP_CREATE_JOB	ipp.h	62;"	d
+OP_GET_JOBS	ipp.h	67;"	d
+OP_GET_JOB_ATTR	ipp.h	66;"	d
+OP_GET_PRINTER_ATTR	ipp.h	68;"	d
+OP_HOLD_JOB	ipp.h	69;"	d
+OP_PAUSE_PRINTER	ipp.h	72;"	d
+OP_PRINT_JOB	ipp.h	59;"	d
+OP_PRINT_URI	ipp.h	60;"	d
+OP_PURGE_JOBS	ipp.h	74;"	d
+OP_RELEASE_JOB	ipp.h	70;"	d
+OP_RESTART_JOB	ipp.h	71;"	d
+OP_RESUME_PRINTER	ipp.h	73;"	d
+OP_SEND_DOC	ipp.h	63;"	d
+OP_SEND_URI	ipp.h	64;"	d
+OP_VALIDATE_JOB	ipp.h	61;"	d
+PROGS	freebsd.mk	/^PROGS = print printd$/;"	m
+PROGS	linux.mk	/^PROGS = print printd$/;"	m
+PROGS	macos.mk	/^PROGS = print printd$/;"	m
+PROGS	solaris.mk	/^PROGS = print printd$/;"	m
+PR_TEXT	print.h	62;"	d
+QLEN	print.h	31;"	d
+REQDIR	print.h	18;"	d
+SPOOLDIR	print.h	15;"	d
+STATCLASS_CLIERR	ipp.h	15;"	d
+STATCLASS_INFO	ipp.h	13;"	d
+STATCLASS_OK	ipp.h	12;"	d
+STATCLASS_REDIR	ipp.h	14;"	d
+STATCLASS_SRVERR	ipp.h	16;"	d
+STAT_CLI_ACCERR	ipp.h	43;"	d
+STAT_CLI_ATTRCON	ipp.h	39;"	d
+STAT_CLI_BADFMT	ipp.h	35;"	d
+STAT_CLI_BADREQ	ipp.h	25;"	d
+STAT_CLI_COMPERR	ipp.h	41;"	d
+STAT_CLI_FMTERR	ipp.h	42;"	d
+STAT_CLI_FORBID	ipp.h	26;"	d
+STAT_CLI_NOAUTH	ipp.h	27;"	d
+STAT_CLI_NOCHAR	ipp.h	38;"	d
+STAT_CLI_NOCOMP	ipp.h	40;"	d
+STAT_CLI_NOPERM	ipp.h	28;"	d
+STAT_CLI_NOSCHM	ipp.h	37;"	d
+STAT_CLI_NOTFND	ipp.h	31;"	d
+STAT_CLI_NOTPOS	ipp.h	29;"	d
+STAT_CLI_NOTSUP	ipp.h	36;"	d
+STAT_CLI_OBJGONE	ipp.h	32;"	d
+STAT_CLI_TIMOUT	ipp.h	30;"	d
+STAT_CLI_TOOBIG	ipp.h	33;"	d
+STAT_CLI_TOOLNG	ipp.h	34;"	d
+STAT_OK	ipp.h	21;"	d
+STAT_OK_ATTRCON	ipp.h	23;"	d
+STAT_OK_ATTRIGN	ipp.h	22;"	d
+STAT_SRV_BADVER	ipp.h	48;"	d
+STAT_SRV_CANCEL	ipp.h	53;"	d
+STAT_SRV_DEVERR	ipp.h	49;"	d
+STAT_SRV_INTERN	ipp.h	45;"	d
+STAT_SRV_NOMULTI	ipp.h	54;"	d
+STAT_SRV_NOTSUP	ipp.h	46;"	d
+STAT_SRV_REJECT	ipp.h	51;"	d
+STAT_SRV_TMPERR	ipp.h	50;"	d
+STAT_SRV_TOOBUSY	ipp.h	52;"	d
+STAT_SRV_UNAVAIL	ipp.h	47;"	d
+Status	ipp.h	122;"	d
+TAG_BOOLEAN	ipp.h	92;"	d
+TAG_CHARSET	ipp.h	105;"	d
+TAG_DATETIME	ipp.h	95;"	d
+TAG_END_OF_ATTR	ipp.h	81;"	d
+TAG_ENUM	ipp.h	93;"	d
+TAG_INTEGER	ipp.h	91;"	d
+TAG_INTRANGE	ipp.h	97;"	d
+TAG_JOB_ATTR	ipp.h	80;"	d
+TAG_KEYWORD	ipp.h	102;"	d
+TAG_MIMETYPE	ipp.h	107;"	d
+TAG_NAMEWLANG	ipp.h	99;"	d
+TAG_NAMEWOLANG	ipp.h	101;"	d
+TAG_NATULANG	ipp.h	106;"	d
+TAG_NONE	ipp.h	90;"	d
+TAG_OCTSTR	ipp.h	94;"	d
+TAG_OPERATION_ATTR	ipp.h	79;"	d
+TAG_PRINTER_ATTR	ipp.h	82;"	d
+TAG_RESOLUTION	ipp.h	96;"	d
+TAG_TEXTWLANG	ipp.h	98;"	d
+TAG_TEXTWOLANG	ipp.h	100;"	d
+TAG_UNKNOWN	ipp.h	89;"	d
+TAG_UNSUPPORTED	ipp.h	88;"	d
+TAG_UNSUPP_ATTR	ipp.h	83;"	d
+TAG_URI	ipp.h	103;"	d
+TAG_URISCHEME	ipp.h	104;"	d
+USERNM_MAX	print.h	22;"	d
+_IPP_H	ipp.h	2;"	d
+_PRINT_H	print.h	2;"	d
+add_job	printd.c	/^add_job(struct printreq *reqp, long jobid)$/;"	f	signature:(struct printreq *reqp, long jobid)
+add_job	printd.c	/^void		add_job(struct printreq *, long);$/;"	p	file:	signature:(struct printreq *, long)
+add_option	printd.c	/^add_option(char *cp, int tag, char *optname, char *optval)$/;"	f	signature:(char *cp, int tag, char *optname, char *optval)
+add_worker	printd.c	/^add_worker(pthread_t tid, int sockfd)$/;"	f	signature:(pthread_t tid, int sockfd)
+add_worker	printd.c	/^void		add_worker(pthread_t, int);$/;"	p	file:	signature:(pthread_t, int)
+attr_group	ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+build_qonstart	printd.c	/^build_qonstart(void)$/;"	f	signature:(void)
+build_qonstart	printd.c	/^void		build_qonstart(void);$/;"	p	file:	signature:(void)
+client_cleanup	printd.c	/^client_cleanup(void *arg)$/;"	f	signature:(void *arg)
+client_cleanup	printd.c	/^void		client_cleanup(void *);$/;"	p	file:	signature:(void *)
+client_thread	printd.c	/^client_thread(void *arg)$/;"	f	signature:(void *arg)
+client_thread	printd.c	/^void		*client_thread(void *);$/;"	p	file:	signature:(void *)
+configlock	printd.c	/^pthread_mutex_t		configlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+connect_retry	print.h	/^extern int connect_retry(int, const struct sockaddr *, socklen_t);$/;"	p	signature:(int, const struct sockaddr *, socklen_t)
+flags	print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+get_newjobno	printd.c	/^get_newjobno(void)$/;"	f	signature:(void)
+get_newjobno	printd.c	/^long		get_newjobno(void);$/;"	p	file:	signature:(void)
+get_printaddr	print.h	/^extern struct addrinfo *get_printaddr(void);$/;"	p	signature:(void)
+get_printaddr	util.c	/^get_printaddr(void)$/;"	f	signature:(void)
+get_printserver	print.h	/^extern char *get_printserver(void);$/;"	p	signature:(void)
+get_printserver	util.c	/^get_printserver(void)$/;"	f	signature:(void)
+getaddrlist	print.h	/^extern int getaddrlist(const char *, const char *,$/;"	p	signature:(const char *, const char *, struct addrinfo **)
+getaddrlist	util.c	/^getaddrlist(const char *host, const char *service,$/;"	f	signature:(const char *host, const char *service, struct addrinfo **ailistpp)
+init_printer	printd.c	/^init_printer(void)$/;"	f	signature:(void)
+init_printer	printd.c	/^void		init_printer(void);$/;"	p	file:	signature:(void)
+init_request	printd.c	/^init_request(void)$/;"	f	signature:(void)
+init_request	printd.c	/^void		init_request(void);$/;"	p	file:	signature:(void)
+initserver	print.h	/^extern int initserver(int, struct sockaddr *, socklen_t, int);$/;"	p	signature:(int, struct sockaddr *, socklen_t, int)
+ipp_hdr	ipp.h	/^struct ipp_hdr {$/;"	s
+ipp_hdr::__anon1::op	ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::__anon1::st	ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+ipp_hdr::attr_group	ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::major_version	ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::minor_version	ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::request_id	ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+ipp_hdr::u	ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+job	printd.c	/^struct job {$/;"	s	file:
+job::jobid	printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+job::next	printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::prev	printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+job::req	printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+jobfd	printd.c	/^int					jobfd;$/;"	v
+jobhead	printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:job
+jobid	print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+jobid	printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:	access:public
+joblock	printd.c	/^pthread_mutex_t		joblock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+jobnm	print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+jobtail	printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:
+jobwait	printd.c	/^pthread_cond_t			jobwait = PTHREAD_COND_INITIALIZER;$/;"	v
+kill_workers	printd.c	/^kill_workers(void)$/;"	f	signature:(void)
+kill_workers	printd.c	/^void		kill_workers(void);$/;"	p	file:	signature:(void)
+log_to_stderr	print.c	/^int log_to_stderr = 1;$/;"	v
+log_to_stderr	printd.c	/^int					log_to_stderr = 0;$/;"	v
+main	print.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	printd.c	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+major_version	ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+mask	printd.c	/^sigset_t				mask;$/;"	v
+minor_version	ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr	access:public
+msg	print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+next	printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+next	printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+nextjob	printd.c	/^long					nextjob;$/;"	v
+op	ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+operation	ipp.h	121;"	d
+prev	printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:	access:public
+prev	printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+printer	printd.c	/^struct addrinfo		*printer;$/;"	v	typeref:struct:addrinfo
+printer_name	printd.c	/^char					*printer_name;$/;"	v
+printer_status	printd.c	/^int		printer_status(int, struct job *);$/;"	p	file:	signature:(int, struct job *)
+printer_status	printd.c	/^printer_status(int sockfd, struct job *jp)$/;"	f	signature:(int sockfd, struct job *jp)
+printer_thread	printd.c	/^printer_thread(void *arg)$/;"	f	signature:(void *arg)
+printer_thread	printd.c	/^void		*printer_thread(void *);$/;"	p	file:	signature:(void *)
+printreq	print.h	/^struct printreq {$/;"	s
+printreq::flags	print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq	access:public
+printreq::jobnm	print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq	access:public
+printreq::size	print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+printreq::usernm	print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+printresp	print.h	/^struct printresp {$/;"	s
+printresp::jobid	print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp	access:public
+printresp::msg	print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp	access:public
+printresp::retcode	print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+readmore	printd.c	/^readmore(int sockfd, char **bpp, int off, int *bszp)$/;"	f	signature:(int sockfd, char **bpp, int off, int *bszp)
+readmore	printd.c	/^ssize_t	readmore(int, char **, int, int *);$/;"	p	file:	signature:(int, char **, int, int *)
+remove_job	printd.c	/^remove_job(struct job *target)$/;"	f	signature:(struct job *target)
+remove_job	printd.c	/^void		remove_job(struct job *);$/;"	p	file:	signature:(struct job *)
+replace_job	printd.c	/^replace_job(struct job *jp)$/;"	f	signature:(struct job *jp)
+replace_job	printd.c	/^void		replace_job(struct job *);$/;"	p	file:	signature:(struct job *)
+req	printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:	access:public
+request_id	ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr	access:public
+reread	printd.c	/^int					reread;$/;"	v
+retcode	print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp	access:public
+scan_configfile	util.c	/^scan_configfile(char *keyword)$/;"	f	file:	signature:(char *keyword)
+signal_thread	printd.c	/^signal_thread(void *arg)$/;"	f	signature:(void *arg)
+signal_thread	printd.c	/^void		*signal_thread(void *);$/;"	p	file:	signature:(void *)
+size	print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq	access:public
+sockfd	printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+st	ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1	access:public
+submit_file	print.c	/^submit_file(int fd, int sockfd, const char *fname, size_t nbytes,$/;"	f	signature:(int fd, int sockfd, const char *fname, size_t nbytes, int text)
+submit_file	print.c	/^void submit_file(int, int, const char *, size_t, int);$/;"	p	file:	signature:(int, int, const char *, size_t, int)
+tid	printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+tread	print.h	/^extern ssize_t tread(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+tread	util.c	/^tread(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+treadn	print.h	/^extern ssize_t treadn(int, void *, size_t, unsigned int);$/;"	p	signature:(int, void *, size_t, unsigned int)
+treadn	util.c	/^treadn(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f	signature:(int fd, void *buf, size_t nbytes, unsigned int timout)
+u	ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1	access:public
+update_jobno	printd.c	/^update_jobno(void)$/;"	f	signature:(void)
+update_jobno	printd.c	/^void		update_jobno(void);$/;"	p	file:	signature:(void)
+usernm	print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq	access:public
+worker_thread	printd.c	/^struct worker_thread {$/;"	s	file:
+worker_thread::next	printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::prev	printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:	access:public
+worker_thread::sockfd	printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:	access:public
+worker_thread::tid	printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:	access:public
+workerlock	printd.c	/^pthread_mutex_t		workerlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+workers	printd.c	/^struct worker_thread	*workers;$/;"	v	typeref:struct:worker_thread
